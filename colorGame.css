@@ -1,0 +1,77 @@
+body {
+    background: #232323;
+    margin: 0;
+    /*font-family: "Montserrat", "Avenir";*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    background: steelblue;
+    margin: 0;
+    padding: 20px 0;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 15%;
+    transition: background 0.6s;
+    /*for browser support for transiton*/
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+#stripe {
+    background: white;
+    height: 30%;
+    text-align: center;
+    color: black;
+}
+
+.selected {
+    color: white;
+    background: steelblue;
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.4s;
+    outline: none;
+    /*for browser support for transiton*/
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
+}
